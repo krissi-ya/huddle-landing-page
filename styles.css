@@ -1,0 +1,314 @@
+body {
+	color: hsl(192, 100%, 9%);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 1.6rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+}
+
+button:focus {
+	outline: none;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.middle {
+	align-self: center;
+}
+
+.header-img, .box-img, .box-img-left {
+	max-width: 100%;
+}
+
+
+/*header*/
+
+header {
+	background-color: hsl(193, 100%, 96%);
+	background-image: url("images/bg-hero-desktop.svg");
+	padding: 5%;
+}
+
+.header-section{
+	padding: 20px 2%;
+	text-align: center;
+}
+
+.logo {
+	width: 120px;
+}
+
+.try-btn {
+	background-color: #FFFFFF;
+	border-radius: 25px;
+	border: none;
+	box-shadow: 3px 3px 10px -2px hsla(192, 24%, 82%, 0.7);
+	color: hsl(192, 100%, 9%);
+	cursor: pointer;
+	display: inline-block;
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 700;
+	height: 30px;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;	
+}
+
+.try-btn:hover {
+	background-color: #fbfbfb;
+}
+
+.get-started-btn {
+	background-color: hsl(322, 100%, 66%);
+	border: none;
+	border-radius: 25px;
+	box-shadow: 3px 3px 10px -2px hsla(192, 24%, 82%, 0.7);
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 700;
+	height: 50px;
+	margin: 15px 0 50px;
+	padding: 10px 75px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.get-started-btn:hover {
+	background-color: hsla(322, 100%, 66%, 0.7);
+}
+
+/*page content*/
+
+.feature {
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px 0px #695e5e30;
+	box-sizing: border-box;
+	margin: 30px auto;
+	max-width: 80%;
+	padding: 35px;
+	text-align: center;
+}
+
+.feature p {
+	color: hsl(208, 11%, 55%);
+	font-size: 16px;
+}
+
+.get-started {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px 0px #695e5e30;
+	margin: 140px 3% -50px;
+	padding: 35px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+
+.bottom-btn {
+	box-shadow: 1px 6px 12px 0px hsla(192, 5%, 39%, 0.4);
+	font-size: 12px;
+	height: fit-content;
+	margin: 15px 0;
+	padding: 10px 40px;
+}
+
+/*footer*/
+
+footer {
+	background-color: hsl(192, 100%, 9%);
+	color: white;
+	font-size: 15px;
+	padding: 150px 7% 75px;
+	text-align: left;
+}
+
+.footer-logo {
+	padding-bottom: 20px;
+}
+
+footer p {
+	padding: 5px;
+}
+
+footer p img {
+	padding: 5px 15px 0 0;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-links a {
+	line-height: 3;
+}
+
+footer a:hover {
+	color: hsl(208, 11%, 55%);
+}
+
+.contact {
+	margin-bottom: 35px
+}
+
+.small-flex {
+	display: flex;
+}
+
+.small-flex img {
+	align-self: flex-start;
+}
+
+i {
+	border: 1px solid;
+	border-radius: 100%;
+	height: 30px;
+    line-height: 2!important;
+    margin: 20px 5px 35px;
+    text-align: center;
+    width: 30px;
+}
+
+.icons {
+	text-align: center;
+}
+
+.attribution, .copyright {
+	font-size: 13px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+/*Media Queries*/
+
+@media (min-width: 768px) {
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+	font-size: 1.5rem;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	.first {
+		order: 1;
+	}
+
+	.second {
+		order: 2;
+	}
+
+	.half {
+		width: 50%;
+	}
+
+	header{
+		padding: 2% 7%;
+	}
+
+	.header-section{
+		padding: 20px 0;
+		text-align: left;
+	}
+
+	.logo {
+		width: auto;
+	}
+
+	.header-img {
+		padding: 50px 0 50px 75px;
+	}
+
+	.try-btn {
+		font-size: 16px;
+		height: 45px;
+		padding: 10px 50px;
+	}
+
+	.feature {
+		padding: 50px 50px 50px 100px;
+		text-align: left;
+	}
+
+	.feature p {
+		font-size: 16px;
+	}
+
+	.feature .box-img {
+		width: 40%;
+	}
+
+	.box-img {
+		padding: 30px 0 30px 50px;
+	}
+
+	.box-img-left {
+		padding: 30px 50px 30px 0;
+	}
+
+	.get-started {
+		margin: 140px 20% -50px;
+		padding: 35px;
+	}
+
+	.bottom-btn {
+		border-radius: 30px;
+		box-shadow: 1px 6px 12px 0px hsla(192, 5%, 39%, 0.4);
+		font-size: 18px;
+		height: 60px;
+		margin: 15px 0 50px;
+		padding: 10px 75px;
+	}
+
+	.footer-content {
+		justify-content: space-between;
+	}
+	
+	.contact {
+		flex-basis: 30%;
+	}
+
+	.flex p img {
+		align-self: flex-start;
+	}
+
+	.attribution, .copyright {
+		text-align: right;
+	}
+	
+
+}
